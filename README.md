@@ -13,6 +13,12 @@ Handle your Cashflow with this Service
 - I'd like to save money in an repetitive event.
 - I'd like to earn interest for my money.
 - Resticted access needs to give interests over time.
+- I'd like to set an password
+- I'd like to setup an account
+- I'd like to add mandants to my account.
+- I'd like to archive some data at a certain time.
+- I'd like to archive some data regularly.
+
 
 ## What is an account
 - An account is a place where money is save or remove from.
@@ -70,6 +76,22 @@ Handle your Cashflow with this Service
 |8|Ich will die Konten bestimmen können|
 | |die bei der Prognose genutzt werden können, und welche nicht.|
 
+| Nr | Description|
+|:----|:-----------|
+|9|Ich will einen Account anlegen können|
+| |und meherere Benutzer darin verwalten können|
+
+| Nr | Description|
+|:----|:-----------|
+|10|Ich will einen Account loeschen können|
+| |die nicht mehr verwendet werden|
+
+| Nr | Description|
+|:----|:-----------|
+|11|Ich will meine Daten verschluesseln können|
+| |damit niemand anderes ohne Password diese auslesen kann.|
+
+
 # Domain Storytelling
 
 # Kontoflüsse
@@ -87,4 +109,51 @@ Eine prognose gibt zu einem bestimmen Zeitpunt oder Zeitraum an. Wiviel Geld zur
 Ist der Zustand in dem Geldwertemittel auf einem Konto zu einem Zeitpunkt sind.
 
 1. Konto --> Konto (Geldtransfer, Kontofluss)
-2. Wunsch -->
+2. Wunsch --> Zahlungsziel
+3. Kontostand ist das Ergebnis von Geldtransfers zu einem Zeitpunkt.
+
+# MVP
+## 1 Geld auf ein Konto einzahlen
+- U 1 Anwender ohne Passwort anlegen.
+- U 2 Konto anlegen.
+- U 3 Geld ueberweisen.
+- U 4 Prognose wieviel Geld kann ich im Monat ausgeben.
+- E 5 Keine Verschluesselung.
+- E 6 Keine weiteren Mandanten anlegen.
+
+# MVP
+## 2 Mehrere Anwender anlegen.
+- U 1 Mehrere Anwender zu einem Gruppenkonto anlegen
+- U 2 Anwender von Gruppenkonto loesen.
+- U 3 Limit festlegen.
+- E 5 Keine Verschluesselung.
+- E 6 Keine weiteren Mandanten anlegen.
+
+# MVP
+## 3 Wuensche festlegen
+- U 1 Wuensche koennen pro Konto bestimmt werden.
+- U 2 Accounts können geloescht werden.
+- U 3 Kontos können geloescht werden.
+
+# MVP
+## 4 Regeltermine festlegen
+- U 1 Regeltermine fuer wiederkehrende Zahlnugen koennen festgelegt werden.
+- U 2 Regeltermine fuer sicherungen koennen festgelegt werden.
+- U 3 Sicherungen koennen festgelegt werden.
+
+# MVP 
+## 5 Prognosen
+- U 1 Prognosen Monatlich Jaehrlich können bestimmt werden.
+- U 2 Konten koennen fuer die monatliche uebersicht eingebunwerden.
+- U 3 Prognosen und Wuensche koennen kombiniert werden.
+
+# MVP 
+## 6 Kontofluesse
+- U 1 Eine Uebersicht zeigt wohin das Geld und wieviel Geld fließt
+
+# MVP 
+## 8 Kontofluesse
+- U 1 Sicherungen speichern als CSV Datei
+
+
+
